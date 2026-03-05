@@ -4,389 +4,63 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CS 4891 — Claude Code Course</title>
-  <meta name="description" content="An intensive course on AI-assisted software development using Claude Code. Learn prompt engineering, agentic workflows, and modern development practices." />
+  <meta name="description" content="A concise course page for CS 4891: Claude Code Course." />
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
 </head>
 <body>
-
-<!-- ── Navigation ──────────────────────────────────────── -->
-<nav class="navbar" aria-label="Main navigation">
-  <div class="navbar__inner">
-    <a href="index.html" class="navbar__brand" aria-label="Course home">
-      <span class="navbar__brand-title">Claude Code Course</span>
-      <span class="navbar__brand-sub">CS 4891 · Spring 2026</span>
-    </a>
-    <button class="navbar__toggle" aria-label="Toggle navigation" onclick="document.querySelector('.navbar__nav').classList.toggle('open')">
-      <span></span><span></span><span></span>
-    </button>
-    <ul class="navbar__nav" id="main-nav">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="syllabus.html">Syllabus</a></li>
-      <li><a href="assignments.html">Assignments</a></li>
-      <li><a href="resources.html">Resources</a></li>
-    </ul>
-  </div>
-</nav>
-
-<!-- ── Hero ────────────────────────────────────────────── -->
-<header class="hero" role="banner">
-  <div class="hero__inner">
-    <div>
-      <div class="hero__badge">Spring 2026</div>
+  <main class="container">
+    <header>
       <h1>Claude Code Course</h1>
-      <p class="hero__subtitle">
-        Master AI-assisted software development with Claude Code. From fundamentals to advanced agentic workflows — build smarter, ship faster.
+      <div class="subtitle">CS 4891 · Spring 2026</div>
+      <p>
+        An intensive course on AI-assisted software development using Claude Code. We cover prompt
+        engineering, agentic workflows, and modern software engineering practices for building reliable
+        systems with LLMs.
       </p>
-      <div class="hero__meta">
-        <span class="hero__meta-item">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          Mon / Wed / Fri · 10:00–11:15 AM
-        </span>
-        <span class="hero__meta-item">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          Gates Hall 305 &amp; Online
-        </span>
-        <span class="hero__meta-item">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-          3 Credit Hours
-        </span>
-      </div>
-      <div class="hero__cta">
-        <a href="syllabus.html" class="btn btn--primary">View Syllabus</a>
-        <a href="assignments.html" class="btn btn--outline">Assignments</a>
-      </div>
-    </div>
-    <div class="hero__card" aria-hidden="true">
-      <div style="margin-bottom:1.25rem;">
-        <div class="hero__card-label">Enrolled</div>
-        <div class="hero__card-value">28</div>
-      </div>
-      <div style="margin-bottom:1.25rem;">
-        <div class="hero__card-label">Weeks</div>
-        <div class="hero__card-value">14</div>
-      </div>
-      <div>
-        <div class="hero__card-label">Projects</div>
-        <div class="hero__card-value">4</div>
-      </div>
-    </div>
-  </div>
-</header>
+      <p class="meta">Mon / Wed / Fri · 10:00–11:15 AM · Gates Hall 305 &amp; Online</p>
+    </header>
 
-<!-- ── Main content ─────────────────────────────────────── -->
-<main id="main-content">
+    <section>
+      <h2>Course Syllabus (14 Weeks)</h2>
+      <table aria-label="Course syllabus">
+        <thead>
+          <tr>
+            <th>Week</th>
+            <th>Topic</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Introduction to Claude Code &amp; AI Development</td></tr>
+          <tr><td>2</td><td>Prompt Engineering Fundamentals</td></tr>
+          <tr><td>3</td><td>Working with Codebases: Context &amp; Navigation</td></tr>
+          <tr><td>4</td><td>Test-Driven Development with AI</td></tr>
+          <tr><td>5</td><td>Agentic Workflows &amp; Tool Use</td></tr>
+          <tr><td>6</td><td>Multi-Turn Conversations &amp; Context Management</td></tr>
+          <tr><td>7</td><td>Refactoring &amp; Code Quality with AI</td></tr>
+          <tr><td>8</td><td>Midterm Review &amp; Project Workshop</td></tr>
+          <tr><td>9</td><td>Advanced Prompt Patterns &amp; Chain-of-Thought</td></tr>
+          <tr><td>10</td><td>CI/CD Integration &amp; AI-Assisted DevOps</td></tr>
+          <tr><td>11</td><td>Security, Ethics &amp; Responsible AI Use</td></tr>
+          <tr><td>12</td><td>Building Custom AI Workflows</td></tr>
+          <tr><td>13</td><td>Capstone Project Work &amp; Peer Review</td></tr>
+          <tr><td>14</td><td>Final Presentations &amp; Course Retrospective</td></tr>
+        </tbody>
+      </table>
+    </section>
 
-  <!-- Announcements + Info -->
-  <section class="section container">
-    <div class="layout-sidebar">
+    <section>
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://docs.anthropic.com/en/docs/claude-code/overview" target="_blank" rel="noopener">Claude Code Documentation</a></li>
+        <li><a href="https://www.anthropic.com" target="_blank" rel="noopener">Anthropic</a></li>
+        <li>Course repository and slides (to be posted)</li>
+      </ul>
+    </section>
 
-      <!-- Left: Announcements -->
-      <div>
-        <div class="section-header">
-          <p class="section-header__eyebrow">Latest updates</p>
-          <h2>Announcements</h2>
-          <div class="divider"></div>
-        </div>
-
-        <div class="alert alert--info" role="note">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;margin-top:1px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-          <span>Office hours are held <strong>Tuesday &amp; Thursday 2–4 PM</strong> in Gates Hall 210 or via Zoom. See the link in the sidebar.</span>
-        </div>
-
-        <div class="announcement">
-          <div class="announcement__date">
-            <div class="announcement__date-day">03</div>
-            <div class="announcement__date-month">Mar</div>
-          </div>
-          <div class="announcement__content">
-            <h4>Project 1 — Feedback Posted</h4>
-            <p>Grades and written feedback for Project 1 are now available on Gradescope. The median score was 88/100. See the rubric breakdown in the comments.</p>
-          </div>
-        </div>
-
-        <div class="announcement">
-          <div class="announcement__date">
-            <div class="announcement__date-day">26</div>
-            <div class="announcement__date-month">Feb</div>
-          </div>
-          <div class="announcement__content">
-            <h4>Guest Lecture: AI-Assisted Code Review</h4>
-            <p>Next Wednesday (Mar 5) we will have a guest speaker from a leading AI company discussing real-world use of Claude in production engineering workflows. Attendance is mandatory.</p>
-          </div>
-        </div>
-
-        <div class="announcement">
-          <div class="announcement__date">
-            <div class="announcement__date-day">19</div>
-            <div class="announcement__date-month">Feb</div>
-          </div>
-          <div class="announcement__content">
-            <h4>Assignment 3 Released</h4>
-            <p>Assignment 3 on multi-turn conversation design is now available. Due date is March 12. Review the prompt engineering reading before starting.</p>
-          </div>
-        </div>
-
-        <!-- Schedule overview -->
-        <div class="section-header mt-4" style="margin-top:3rem">
-          <p class="section-header__eyebrow">Course schedule</p>
-          <h2>Weekly Overview</h2>
-          <div class="divider"></div>
-          <p>A condensed view of upcoming topics. See the <a href="syllabus.html">full syllabus</a> for readings and deliverables.</p>
-        </div>
-
-        <div style="border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--border);">
-          <table class="schedule-table" aria-label="Course schedule overview">
-            <thead>
-              <tr>
-                <th>Week</th>
-                <th>Topic</th>
-                <th>Deliverable</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><span class="week-badge">W1</span></td>
-                <td>Introduction to Claude Code &amp; AI Development</td>
-                <td><span class="tag tag--gray">Setup</span></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W2</span></td>
-                <td>Prompt Engineering Fundamentals</td>
-                <td><span class="tag tag--blue">A1</span></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W3</span></td>
-                <td>Working with Codebases: Context &amp; Navigation</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W4</span></td>
-                <td>Test-Driven Development with AI</td>
-                <td><span class="tag tag--blue">A2</span></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W5</span></td>
-                <td>Agentic Workflows &amp; Tool Use</td>
-                <td><span class="tag tag--gold">P1</span></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W6</span></td>
-                <td>Multi-Turn Conversations &amp; Context Management</td>
-                <td><span class="tag tag--blue">A3</span></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W7</span></td>
-                <td>Refactoring &amp; Code Quality with AI</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W8</span></td>
-                <td><em>Midterm Review &amp; Project Workshop</em></td>
-                <td><span class="tag tag--red">Midterm</span></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W9</span></td>
-                <td>Advanced Prompt Patterns &amp; Chain-of-Thought</td>
-                <td><span class="tag tag--gold">P2</span></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W10</span></td>
-                <td>CI/CD Integration &amp; AI-Assisted DevOps</td>
-                <td><span class="tag tag--blue">A4</span></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W11</span></td>
-                <td>Security, Ethics &amp; Responsible AI Use</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W12</span></td>
-                <td>Building Custom AI Workflows</td>
-                <td><span class="tag tag--gold">P3</span></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W13</span></td>
-                <td>Capstone Project Work &amp; Peer Review</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td><span class="week-badge">W14</span></td>
-                <td>Final Presentations &amp; Course Retrospective</td>
-                <td><span class="tag tag--gold">P4</span></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- Right: Sidebar -->
-      <aside aria-label="Course information">
-
-        <!-- Course info -->
-        <div class="sidebar-widget">
-          <div class="sidebar-widget__header">Course Information</div>
-          <div class="sidebar-widget__body">
-            <ul class="info-list">
-              <li><strong>Course</strong><span>CS 4891</span></li>
-              <li><strong>Term</strong><span>Spring 2026</span></li>
-              <li><strong>Credits</strong><span>3 units</span></li>
-              <li><strong>Format</strong><span>Hybrid</span></li>
-              <li><strong>Location</strong><span>Gates 305</span></li>
-              <li><strong>Time</strong><span>MWF 10–11:15 AM</span></li>
-              <li><strong>Prerequisites</strong><span>CS 2110 or equivalent</span></li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Important dates -->
-        <div class="sidebar-widget">
-          <div class="sidebar-widget__header">Important Dates</div>
-          <div class="sidebar-widget__body">
-            <ul class="info-list">
-              <li><strong>Last drop day</strong><span>Mar 14</span></li>
-              <li><strong>Midterm</strong><span>Mar 19</span></li>
-              <li><strong>Spring break</strong><span>Mar 23–30</span></li>
-              <li><strong>P3 due</strong><span>Apr 18</span></li>
-              <li><strong>Final presentations</strong><span>May 7–9</span></li>
-              <li><strong>P4 due</strong><span>May 12</span></li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Office hours -->
-        <div class="sidebar-widget">
-          <div class="sidebar-widget__header">Office Hours</div>
-          <div class="sidebar-widget__body">
-            <ul class="info-list">
-              <li><strong>Instructor</strong><span>Tue 2–4 PM</span></li>
-              <li><strong>TA (Alex)</strong><span>Mon 3–5 PM</span></li>
-              <li><strong>TA (Priya)</strong><span>Thu 1–3 PM</span></li>
-              <li><strong>Zoom</strong><span><a href="#" style="color:var(--navy)">Link on Canvas</a></span></li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Quick links -->
-        <div class="sidebar-widget">
-          <div class="sidebar-widget__header">Quick Links</div>
-          <div class="sidebar-widget__body" style="padding:.75rem 1.25rem;">
-            <ul class="footer__links" style="font-size:.875rem;">
-              <li><a href="syllabus.html">📄 Full Syllabus</a></li>
-              <li><a href="assignments.html">📝 Assignments</a></li>
-              <li><a href="resources.html">📚 Resources</a></li>
-              <li><a href="https://docs.anthropic.com/en/docs/claude-code/overview" target="_blank" rel="noopener">📖 Claude Code Docs ↗</a></li>
-              <li><a href="#" target="_blank" rel="noopener">🎓 Canvas LMS ↗</a></li>
-              <li><a href="#" target="_blank" rel="noopener">📊 Gradescope ↗</a></li>
-            </ul>
-          </div>
-        </div>
-      </aside>
-    </div>
-  </section>
-
-  <!-- Instructor section -->
-  <section class="section" style="background:var(--white);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-header__eyebrow">Meet the team</p>
-        <h2>Instructor &amp; TAs</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="grid-2" style="gap:1.5rem;">
-        <div class="instructor-card">
-          <div class="instructor-card__avatar" aria-hidden="true">S</div>
-          <div>
-            <div class="instructor-card__name">Prof. Sophia Chen</div>
-            <div class="instructor-card__role">Course Instructor</div>
-            <p class="instructor-card__bio">
-              Associate Professor in Computer Science specializing in human-AI interaction and software engineering. Previously at Google Brain and Microsoft Research. She can be reached at <a href="mailto:sophia.chen@university.edu">sophia.chen@university.edu</a>.
-            </p>
-          </div>
-        </div>
-        <div style="display:flex;flex-direction:column;gap:1rem;">
-          <div class="instructor-card" style="padding:1.25rem;">
-            <div class="instructor-card__avatar" style="width:52px;height:52px;font-size:1.3rem;" aria-hidden="true">A</div>
-            <div>
-              <div class="instructor-card__name" style="font-size:1rem;">Alex Rivera</div>
-              <div class="instructor-card__role">Teaching Assistant</div>
-              <p class="instructor-card__bio" style="font-size:.83rem;">PhD student, AI Systems. Office hours Mon 3–5 PM.</p>
-            </div>
-          </div>
-          <div class="instructor-card" style="padding:1.25rem;">
-            <div class="instructor-card__avatar" style="width:52px;height:52px;font-size:1.3rem;" aria-hidden="true">P</div>
-            <div>
-              <div class="instructor-card__name" style="font-size:1rem;">Priya Nair</div>
-              <div class="instructor-card__role">Teaching Assistant</div>
-              <p class="instructor-card__bio" style="font-size:.83rem;">PhD student, Software Engineering. Office hours Thu 1–3 PM.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Course highlights -->
-  <section class="section container">
-    <div class="section-header">
-      <p class="section-header__eyebrow">Why take this course?</p>
-      <h2>What You'll Learn</h2>
-      <div class="divider"></div>
-    </div>
-    <div class="grid-3">
-      <div class="card">
-        <div class="card__label">Week 1–4</div>
-        <div class="card__title">Foundations of AI-Assisted Dev</div>
-        <p class="card__body">Learn how modern LLMs work as coding tools, master prompt engineering basics, and set up professional Claude Code workflows.</p>
-      </div>
-      <div class="card">
-        <div class="card__label">Week 5–9</div>
-        <div class="card__title">Agentic Workflows</div>
-        <p class="card__body">Design multi-step AI agents, manage context across long sessions, and integrate Claude into real CI/CD pipelines.</p>
-      </div>
-      <div class="card">
-        <div class="card__label">Week 10–14</div>
-        <div class="card__title">Production &amp; Ethics</div>
-        <p class="card__body">Deploy AI-assisted systems responsibly. Cover security considerations, bias, code review automation, and capstone project delivery.</p>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<!-- ── Footer ───────────────────────────────────────────── -->
-<footer class="footer" aria-label="Site footer">
-  <div class="footer__inner">
-    <div class="footer__grid">
-      <div>
-        <div class="footer__brand">Claude Code Course — CS 4891</div>
-        <p class="footer__tagline">An intensive course on AI-assisted software development. Part of the Computer Science curriculum, Spring 2026.</p>
-      </div>
-      <div>
-        <div class="footer__heading">Navigation</div>
-        <ul class="footer__links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="syllabus.html">Syllabus</a></li>
-          <li><a href="assignments.html">Assignments</a></li>
-          <li><a href="resources.html">Resources</a></li>
-        </ul>
-      </div>
-      <div>
-        <div class="footer__heading">Resources</div>
-        <ul class="footer__links">
-          <li><a href="https://docs.anthropic.com/en/docs/claude-code/overview" target="_blank" rel="noopener">Claude Code Docs</a></li>
-          <li><a href="https://www.anthropic.com" target="_blank" rel="noopener">Anthropic</a></li>
-          <li><a href="#" target="_blank" rel="noopener">Canvas LMS</a></li>
-          <li><a href="#" target="_blank" rel="noopener">Gradescope</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <span>© 2026 CS 4891 Claude Code Course. All rights reserved.</span>
-      <span>Questions? <a href="mailto:sophia.chen@university.edu">sophia.chen@university.edu</a></span>
-    </div>
-  </div>
-</footer>
-
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:email@example.edu">email@example.edu</a> (placeholder)</p>
+    </section>
+  </main>
 </body>
 </html>
